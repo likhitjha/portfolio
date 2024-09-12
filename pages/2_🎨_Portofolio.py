@@ -37,10 +37,6 @@ with body:
 
    st.link_button("Go to Github", "https://github.com/Rsirp0c/D3-practice")
    st.image("src/Custom_Database_System.jpg")
-   with st.expander("See more"):
-      st.image("src/Screenshot-1.png", width=800)
-      st.image("src/Screenshot-3.png", width=800)
-      st.image("src/Screenshot-4.png", width=800)
 
    # Desktop ChatApp -------------------------------------------------------------- 
    Portfolio_component(Portfolio[4][0], Portfolio[4][1])
