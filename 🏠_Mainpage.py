@@ -14,7 +14,7 @@ from langchain.chains import RetrievalQA
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 
 # Set up OpenAI API key
-os.environ["REPLICATE_API_TOKEN"] = "r8_MRMNavwiEfL76j8BNhML8fN6RmdPDny2NFOQV"
+os.environ["REPLICATE_API_TOKEN"] = st.secrets["general"]["REPLICATE_API_TOKEN"]
 
 # Initialize Streamlit page
 st.set_page_config(page_title="Main Page", page_icon="🏠", layout="wide", initial_sidebar_state="collapsed")
