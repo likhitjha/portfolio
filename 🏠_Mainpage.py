@@ -82,7 +82,7 @@ def get_qa_chain():
 
     # Initialize RetrievalQA chain
     llm = Replicate(
-        model="meta/llama-2-7b-chat:13c3cdee13ee059ab779f0291d29054dab00a47dad8261375654de5540165fb0",
+        model="meta/llama-2-7b-chat",
         model_kwargs={"temperature": 0.1, "max_length": 500, "top_p": 1}
     )
 
