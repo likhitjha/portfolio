@@ -22,18 +22,37 @@ github_logo = '''
 '''
 
 # personal info (for main page) --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-info = {'brief':
-              """    
-                 I'm on a journey to explore the fascinating world of data and code. Currently, I'm pursuing my Master's in Applied Data Science at the University of Southern California. I'm a coding enthusiast with a love for data, coffee, and open-source projects.
-                **I believe in the intersectionality of quantitative and qualitative subjects, that neither approach alone can lead one to the absolute truth.**
-              """,
-        'name':'Likhit Jha', 
-        'study':'University of Southern California',
-        'location':'Los Angeles, CA',
-        'interest':'Data Science, Machine Learning',
-        'skills' : ['Python', 'R', 'C++', 'C#', 'MATLAB', 'Hadoop', 'SQL', 'NoSQL (Firebase)', 'Spark', 'scikit-learn', 'pandas', 'TensorFlow', 'PyTorch', 'LangChain', 'matplotlib', 'Data science pipeline', 'Statistics', 'Time series', 'Hypothesis testing', 'Excel', 'Tableau', 'Git', 'Vertex AI']
-,
-        }
+info = {
+    'brief': """    
+        I'm on a journey to explore the fascinating world of data and code. Currently, I'm pursuing my Master's in Applied Data Science at the University of Southern California. I'm a coding enthusiast with a love for data, coffee, and open-source projects.
+        **I believe in the intersectionality of quantitative and qualitative subjects, that neither approach alone can lead one to the absolute truth.**
+    """,
+    'name': 'Likhit Jha',
+    'study': 'University of Southern California',
+    'location': 'Los Angeles, CA',
+    'interest': 'Data Science, Machine Learning',
+    'skills_categories': {
+        'Programming & Data': [
+            'Python', 'SQL', 'Apache Spark', 'Hadoop', 
+            'NoSQL (MongoDB, Firebase)', 'Kafka', 'R', 'HDFS',
+            'NumPy', 'Pandas'
+        ],
+        'Machine Learning & AI': [
+            'TensorFlow', 'Keras', 'PyTorch', 'Scikit-learn',
+            'LLMs (GPT, Gemini)', 'LangChain', 'LLama',
+            'MLflow', 'Vector DBs', 'Pinecone', 'FAISS',
+            'Hugging Face', 'NLP', 'Statistical Testing',
+            'Regression', 'Classification', 'Clustering',
+            'DeepEval', 'RAGAS'
+        ],
+        'Cloud & DevOps': [
+            'MLOps', 'AWS SageMaker', 'AWS Bedrock', 
+            'AWS Lambda', 'AWS ECR', 'AWS EC2', 'AWS EKS',
+            'Azure OpenAI', 'Azure ML', 'Databricks',
+            'GCP Vertex AI', 'Docker', 'Kubernetes'
+        ]
+    }
+}
 
 # Experience --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #[[header, subheader, date, location, content, link, link_url], [...], etc.]
