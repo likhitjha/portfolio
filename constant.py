@@ -39,14 +39,14 @@ info = {'brief':
 #[[header, subheader, date, location, content, link, link_url], [...], etc.]
 
 Experience = [
-    [":orange[Northern Lights]", "Machine Learning and Data Engineering Intern",
+    [":yellow[Northern Lights]", "Machine Learning and Data Engineering Intern",
     "October 2024 – Present", "New York, USA",
     """
     - Executed comprehensive benchmarking of large models (Llama, Claude, Gemini, GPT) via AWS Bedrock, focusing on multimodal processing capabilities and implementing advanced prompt engineering methodologies for video recommendations tasks
     - Architected a video scoring pipeline on AWS SageMaker, leveraging a feed-forward neural network trained on an 11M video dataset. Conducted comparative performance analysis against traditional ML models
     - Trained and deployed FAISS (Facebook AI Similarity Search) models as containerized endpoints using Docker images hosted on Amazon ECR, achieving a 5-second reduction in average API response latency
     """,
-    "Company website", "https://northernlights.com",
+    "Company website", "https://www.nl.family",
     """**Technical Skills:**
     - **Cloud & MLOps:** AWS, Sagemaker, Bedrock, ECR, S3
     - **AI/ML:** FAISS, GenAI, Large Language Models
