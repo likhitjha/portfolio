@@ -39,38 +39,57 @@ info = {'brief':
 #[[header, subheader, date, location, content, link, link_url], [...], etc.]
 
 Experience = [
-              [":orange[WNS Global]", "Data Science Intern", 
-              "May 2024 – August 2024", "New York, USA", 
-              """
-              - Utilized Python to implement supervised machine learning techniques for time series forecasting and compared them with large models, which reduced processing time by 90%. Primarily focused on Xgboost, Prophet, TimeGPT, Chronos, LagLlama.
-              - Delivered thorough results to the global head, authoring an executive summary that outlined a strategic value proposition.
-              - Engineered enhancements to the “Trust bridge” tool, specifically focusing on fairness in model governance and interpretation, resulting in production deployment of the optimal model that met all quality assurance checkpoints. 
-              - Enhanced Trust bridge’s capabilities by integrating an architecture of LLM agents and resulting in a 30% increase in model interpretability and transparency.
-              """, 
-              "Company website", "https://www.wns.com/capabilities/analytics",
-              "**Skills:** Python, Time Series Forecasting, Xgboost, Prophet, TimeGPT, Chronos, LagLlama, LLM, Model Governance"],
+    [":orange[Northern Lights]", "Machine Learning and Data Engineering Intern",
+    "October 2024 – Present", "New York, USA",
+    """
+    - Executed comprehensive benchmarking of large models (Llama, Claude, Gemini, GPT) via AWS Bedrock, focusing on multimodal processing capabilities and implementing advanced prompt engineering methodologies for video recommendations tasks
+    - Architected a video scoring pipeline on AWS SageMaker, leveraging a feed-forward neural network trained on an 11M video dataset. Conducted comparative performance analysis against traditional ML models
+    - Trained and deployed FAISS (Facebook AI Similarity Search) models as containerized endpoints using Docker images hosted on Amazon ECR, achieving a 5-second reduction in average API response latency
+    """,
+    "Company website", "https://northernlights.com",
+    """**Technical Skills:**
+    - **Cloud & MLOps:** AWS, Sagemaker, Bedrock, ECR, S3
+    - **AI/ML:** FAISS, GenAI, Large Language Models
+    - **Development:** MLOps, Docker, API Development"""],
 
+    [":orange[WNS Global]", "Data Science Intern",
+    "May 2024 – August 2024", "New York, USA",
+    """
+    - Engineered and evaluated temporal foundation models (TimeGPT, Amazon Chronos, LagLlama) against statistical forecasting methods (XGBoost, Prophet, LSTM), achieving 2 orders of magnitude improvement in inference speed
+    - Researched and evaluated AI fairness metrics and explainability frameworks (SHAP, LIME, Integrated Gradients) across cloud platforms, analyzing bias detection methodologies and model interpretation techniques for regulatory compliance
+    - Architected a dual-pathway query processing system using LLMs for intent classification (numerical vs. theoretical queries), implementing RAG for knowledge retrieval and PandasAI for data analysis, with a final LLM layer for response synthesis via LangChain, achieving 30% enhanced interpretability for business users
+    """,
+    "Company website", "https://www.wns.com/capabilities/analytics",
+    """**Technical Skills:**
+    - **AI/ML:** Llama, RAG, LangChain, GenAI
+    - **Development:** Streamlit, Prompt Engineering
+    - **MLOps:** AWS, Model Deployment"""],
 
-              [":blue[Laminaar Aviation Infotech]", "Machine Learning Intern", 
-              "June 2022 – September 2022", "Mumbai, India", 
-              """
-              - Performed exploratory data analysis to interpret patterns in time series, and shared insights with an industry mentor.
-              - Conducted in-depth research on standby crew operations in the airline industry to accurately forecast no-show rates; findings led to a 20% reduction in operational costs associated with crew scheduling inefficiencies.
-              - Improved accuracy of Prophet model by 6% through feature selection and reduced training time by 17%.
-              """,
-              "Company website", "https://www.laminaar.com",
-              "**Skills:** Python, Time Series Forecasting, Prophet, Feature Selection"],
+    [":blue[Laminaar Aviation Infotech]", "Machine Learning Intern",
+    "June 2022 – September 2022", "Mumbai, India",
+    """
+    - Analyzed time series data to uncover patterns and trends, sharing actionable insights with industry experts
+    - Conducted in-depth research on standby crew operations in the airline industry to accurately forecast no-show rates; findings led to a 20% reduction in operational costs associated with crew scheduling inefficiencies
+    - Improved accuracy of Prophet model by 6% through feature selection and reduced training time by 17%
+    """,
+    "Company website", "https://www.laminaar.com",
+    """**Technical Skills:**
+    - **Cloud:** Azure
+    - **ML Models:** ARIMA, Prophet
+    - **Analytics:** Time Series Forecasting, Regression"""],
 
-              [":red[AUR Consultant]", "Machine Learning & Artificial Intelligence Intern", 
-              "May 2022 – June 2022", "Nagpur, India", 
-              """
-              - Led the development of an AI recruitment chatbot using Rasa and Python
-              - Accelerated candidate screening time by 40% and streamlined the hiring process for over 200 applicants per month. Integrated features included resume parsing, interview scheduling, and reminder notifications.
-              - Trained a SpaCy NER model with a dataset of over 2000 resumes, facilitating text summarization.
-              """,
-              "Company website", "https://aurconsultant.com",
-              "**Skills:** Python, Rasa, AI, SpaCy, NER, Chatbots"]
-
+    [":red[AUR Consultant]", "Machine Learning & Artificial Intelligence Intern",
+    "May 2022 – June 2022", "Nagpur, India",
+    """
+    - Led the development of an AI recruitment chatbot using Rasa and Python, including the design of chat flows and integration of APIs for interview scheduling and automated reminders
+    - Trained a SpaCy NER model on a dataset of over 2000 resumes to enhance resume parsing accuracy
+    - Achieved a 40% reduction in candidate screening time, streamlining the hiring process for over 700 applicants per month
+    """,
+    "Company website", "https://aurconsultant.com",
+    """**Technical Skills:**
+    - **Development:** Python, Rasa, Spacy
+    - **Analytics:** Business Analytics
+    - **Tools:** MS Office"""]
 ]
 
 # Portfolio --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
