@@ -194,7 +194,7 @@ if col3.button(question_3):
     handle_interaction(question_3)
 
 # Handle user input via chat input box
-if prompt := st.chat_input("I am Likhit's personal assistant, chat with me"):
+if prompt := st.chat_input("I am Likhit's personal assistant, how can I help you ?"):
     handle_interaction(prompt)
 
 # Display chat messages from session state
