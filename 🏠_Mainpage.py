@@ -134,22 +134,36 @@ with body:
 
     # Skills Section
     st.subheader("My :blue[skills] ⚒️", divider='rainbow')
-
-    def skill_tab():
-        rows, cols = len(info['skills']) // skill_col_size, skill_col_size
-        skills = iter(info['skills'])
-        if len(info['skills']) % skill_col_size != 0:
-            rows += 1
-        for x in range(rows):
-            columns = st.columns(skill_col_size)
-            for index_ in range(skill_col_size):
-                try:
-                    columns[index_].button(next(skills))
-                except:
-                    break
+    
+    def skill_section():        
+        # Create tabs for each skill category
+        tabs = st.tabs(list(info['skills_categories'].keys()))
+        
+        # Populate each tab with skills
+        for tab, category in zip(tabs, info['skills_categories'].keys()):
+            with tab:
+                skills = info['skills_categories'][category]
+                cols_per_row = 4  # Number of columns per row
+                
+                # Calculate number of rows needed
+                num_skills = len(skills)
+                num_rows = (num_skills + cols_per_row - 1) // cols_per_row
+                
+                # Create grid layout for skills
+                for row in range(num_rows):
+                    cols = st.columns(cols_per_row)
+                    for col in range(cols_per_row):
+                        idx = row * cols_per_row + col
+                        if idx < num_skills:
+                            with cols[col]:
+                                st.button(
+                                    skills[idx],
+                                    use_container_width=True,
+                                    key=f"{category}-{skills[idx]}"
+                                )
 
     with st.spinner(text="Loading section..."):
-        skill_tab()
+        skill_section()
 
     qa_chain = get_qa_chain()
 
