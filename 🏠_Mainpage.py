@@ -125,7 +125,7 @@ with body:
         st.download_button(
             label="Download my :blue[resume]",
             data=resume_file,
-            file_name="resume",
+            file_name="LikhitJhaResume.pdf",
             mime="application/pdf"
         )
 
