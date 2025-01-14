@@ -39,7 +39,7 @@ info = {'brief':
 #[[header, subheader, date, location, content, link, link_url], [...], etc.]
 
 Experience = [
-    [":yellow[Northern Lights]", "Machine Learning and Data Engineering Intern",
+    [":green[Northern Lights]", "Machine Learning and Data Engineering Intern",
     "October 2024 – Present", "New York, USA",
     """
     - Executed comprehensive benchmarking of large models (Llama, Claude, Gemini, GPT) via AWS Bedrock, focusing on multimodal processing capabilities and implementing advanced prompt engineering methodologies for video recommendations tasks
