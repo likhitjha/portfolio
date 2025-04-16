@@ -24,11 +24,11 @@ with body:
    # Deis Evaluation ----------------------------------------------------------------
    Portfolio_component(Portfolio[2][0], Portfolio[2][1])
 
-   tab1, tab2 = st.tabs(["View Article", "View Website"])
-   with tab1:  
-      st.link_button("Go to Website", "https://viterbischool.usc.edu/news/2023/11/too-close-for-comfort-usc-viterbi-students-use-ai-to-prevent-aircraft-collisions")
-      components.iframe("https://viterbischool.usc.edu/news/2023/11/too-close-for-comfort-usc-viterbi-students-use-ai-to-prevent-aircraft-collisions/", width=800, height=600, scrolling=True)
-   with tab2:
+   tab1 = st.tabs(["View Website"])
+   # with tab1:  
+   #   st.link_button("Go to Website", "https://viterbischool.usc.edu/news/2023/11/too-close-for-comfort-usc-viterbi-students-use-ai-to-prevent-aircraft-collisions")
+   #   components.iframe("https://viterbischool.usc.edu/news/2023/11/too-close-for-comfort-usc-viterbi-students-use-ai-to-prevent-aircraft-collisions/", width=800, height=600, scrolling=True)
+   with tab1:
       st.link_button("Go to Website", "https://ckids-datafirst.github.io/2023-fall-aviation-safety")
       components.iframe("https://ckids-datafirst.github.io/2023-fall-aviation-safety", width=800, height=600, scrolling=True)
 
